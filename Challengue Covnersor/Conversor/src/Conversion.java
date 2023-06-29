@@ -60,7 +60,7 @@ class Conversion {
 		int comfirmResult = JOptionPane.showConfirmDialog(null, "¿Desea continuar?");
 
 		if (comfirmResult == JOptionPane.YES_OPTION) {
-			Mn();
+			Ejecucuion();
 		} else if (comfirmResult == JOptionPane.NO_OPTION) {
 			JOptionPane.showMessageDialog(null, "Programa finalizado");
 		} else {
